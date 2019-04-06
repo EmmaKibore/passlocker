@@ -54,6 +54,9 @@ def main():
                 print("Bye ...........")
                 break
              else:
-                 print("I did not get that at all. Please use the short codes")                                 
+                 print("I did not get that at all. Please use the short codes")
+                  
+if __name__ == '__main__':
+    main()                                                 
 
 
