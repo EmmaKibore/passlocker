@@ -10,13 +10,13 @@ class TestUser(unittest.TestCase):
      unittest.TestCase: TestCase class that helps in creating test cases
      '''
 
-   def setUp(self):
+   def __setUp__(self):
      '''
      set up method to run before each test cases.
     '''
     self.new_user = User("Instagram", "Emma", "0000") # create user object
 
-   def test_init(self):
+   def test__init__(self):
      '''
      test_init case to test if the object is initialized correctly
      '''
@@ -83,13 +83,13 @@ class TestUser(unittest.TestCase):
      user_exists = Users.user_exists("Instagram")
 
       self.assertTrue(user_exists)
-      
-    def test_display_all_user(self):
+
+ def test_display_all_user(self):
         '''
         method that returns a list of all users saved
         '''
 
-     self.assertEqual(Users.display_user(),Uesrs.users_list)                
+     self.assertEqual(Users.display_user(),Users.users_list)                
 
 if __name__ == '__main__':
      unittest.main()  
