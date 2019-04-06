@@ -1,9 +1,30 @@
-account_list = [] # Empty accounts list
+class User :
+    '''
+    Class that generates new instances of user
+    '''
 
-  def save_account(self):
+    user_list = []
+    def __init__ (self, account, password):
+        '''
+        __init__ method that helps us define properties for our objects
+        '''
+        self.account = account
+        self.username = username
+        self.password = password
 
-      '''
-      save_account method saves account objects into account_list
-      '''
+        user_list = []
+    def save_user(self):
 
-      Account.account_list.append(self)
+        '''
+        save_user method saves user objects into user_list
+        ''' 
+
+        User.user_list.append(self)
+    def delete_user(self)
+        User.user_list.remove(self)
+
+    @classmethod
+    def find_by_account(cls, account):
+        for user in cls.user_list:
+            if user.account == account:
+                return user           
