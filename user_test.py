@@ -31,15 +31,15 @@ class TestUser(unittest.TestCase):
     '''
     User.user_list = []
 
-#  def test_save_multiple_user(self):
-#     '''
-#     test_save_multiple_user to check if we can save multiple accounts objects to our account_list
-#     '''  
+ def test_save_multiple_user(self):
+    '''
+    test_save_multiple_user to check if we can save multiple accounts objects to our account_list
+    '''  
 
-#     self.new_user.save_user()
-#     test_usert = User("Instagram", "Emma", "0000") # new account 
-#     test_user.save_account()
-#     self.assertEqual(len(User.user_list),1)
+    self.new_user.save_user()
+    test_usert = User("Instagram", "Emma", "0000") # new account 
+    test_user.save_account()
+    self.assertEqual(len(User.user_list),1)
 
 # def test_save_user(self):
 #     self.new_user.save_user()
