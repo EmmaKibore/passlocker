@@ -21,20 +21,20 @@ def main():
               print(f"New Account {user_name} created")
               print ('\n')
 
-        #  elif short_code == 'da':
+         elif short_code == 'da':
 
-        #        if display_accounts():
-        #            print("Here is a list of all your accounts")
-        #            print('\n')
+               if display_accounts():
+                   print("Here is a list of all your accounts")
+                   print('\n')
 
-        #            for account in display_accounts():
-        #                print(f"{account.username}......{account.password}")
+                   for account in display_accounts():
+                       print(f"{account.username}......{account.password}")
 
-        #                print('\n')
-        #  else:
-        #           print('\n')
-        #           print("You dont seem to have any accounts"
-        #           print('\n')
+                       print('\n')
+         else:
+                  print('\n')
+                  print("You dont seem to have any accounts"
+                  print('\n')
 
         #  elif short_code == 'fa':
         #      print("Enter the account you want to search for")
