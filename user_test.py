@@ -45,11 +45,18 @@ def test_save_user(self):
     self.new_user.save_user()
     self.assertEqual(len(User.user_list),1)
 
-# def delete_user(self):
+def delete_user(self):
 
-#     '''
-#     delete_user method deletes a saved user from the user-list
-#     '''    
-#     self.new_user.delete_contact() # Deleting a user object
+    '''
+    delete_user method deletes a saved user from the user-list
+    '''    
+    self.new_user.delete_contact() # Deleting a user object
+      self.new_user.save_user()
+      test_user = User ("Instagram", "Emma", "0000")
+      test_user.save_user()
+
+      self.new_user.delete_user()
+      self.assertEqual(len(User.user_list),1)
+
 # if __name__ == '__main__':
 #     unittest.main()  
