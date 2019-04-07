@@ -27,3 +27,6 @@ Python
 | Exit application         | Type: ex         | Closes the application            |
 |                          | Bye Emma         |                                   |
 |--------------------------|------------------|-----------------------------------|
+
+## Known bugs
+There are currently no known bugs
