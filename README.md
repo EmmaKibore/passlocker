@@ -11,9 +11,9 @@ This is a n application that allows us to generate and store passwords for vario
 #BDD
 | Behaviour                | Input            | Output                            |
 | :----------------------- | :-------------   | :---------------------------------|
-| Create a new credential  | Type: cc         |  User Emma has been created.      |  
-|                          |Username:Emma     |                                   |
-|------------------------- |------------------|-----------------------------------|                    | |Display credentials       | Type: dc         | Outputs stored credentials        |
+| Create a new account     | Type: ca         |  User Emma has been created.      |  
+|                          | Username:Emma    |                                   |
+|------------------------- |------------------|-----------------------------------|                    | |Display account           | Type: da         | Outputs stored accounts           |
 |--------------------------|------------------|-----------------------------------|
 | Find a a credential      | Type : fc        | Outputs all saved Emma credentials|      
 |--------------------------|------------------|-----------------------------------|
