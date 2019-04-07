@@ -28,7 +28,7 @@ pip
 | Find a account           | Type : fa        | Outputs all saved Emma accounts   |      
 |                          |                  |                                   |
 | Exit application         | Type: ex         | Closes the application            |
-|                          | Bye Emma         |                                   |
+|                          | Adios Emma       |                                   |
 
 ## Known bugs
 There are currently no known bugs
