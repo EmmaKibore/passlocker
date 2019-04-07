@@ -1,6 +1,10 @@
 #Password Locker
 This is a n application that allows us to generate and store passwords for various accounts.
 
+##Technologies used
+Python
+
+
 ##Installation
 >Clone this repository to your local computer.
 >Ensure you have python3.6 installed in your computer.
