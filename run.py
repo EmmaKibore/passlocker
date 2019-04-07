@@ -31,12 +31,12 @@ def main():
                        print(f"{account.username}......{account.password}")
 
                        print('\n')
-             else:
+    else:
                   print('\n')
-                  print("You dont seem to have any accounts"
+                  print("You dont seem to have any accounts")
                   print('\n')
 
-         elif short_code == 'fa':
+          elif short_code == 'fa':
              print("Enter the account you want to search for")
 
              search_account = input()
