@@ -1,8 +1,11 @@
 # Password Locker
+This is an application that allows us to generate and store passwords for various accounts.
+
 By Emma Kibore
 
 ## Description
-This is a n application that allows us to generate and store passwords for various accounts.
+This application allows a user to create an account. Login in and save their credentials for other accounts. They can display all accounts credentials at once or search for a specific account.Furthermore,they can even delete an account. Written in python and can only be accessed using the terminal.
+
 
 ## Technologies used
 Python
