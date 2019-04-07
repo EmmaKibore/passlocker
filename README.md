@@ -21,10 +21,9 @@ pip
 | :----------------------- | :-------------   | :---------------------------------|
 | Create a new account     | Type: ca         |  User Emma has been created.      |  
 |                          | Username:Emma    |                                   |
-|------------------------- |------------------|-----------------------------------|                    | | Display account          | Type: da         | Outputs stored accounts           |
-|--------------------------|------------------|-----------------------------------|
+|                          |                  |                                   |
 | Find a account           | Type : fa        | Outputs all saved Emma accounts   |      
-|--------------------------|------------------|-----------------------------------|
+|                          |                  |                                   |
 | Exit application         | Type: ex         | Closes the application            |
 |                          | Bye Emma         |                                   |
 
