@@ -10,13 +10,13 @@ class TestUser(unittest.TestCase):
      unittest.TestCase: TestCase class that helps in creating test cases
      '''
 
-   def __setUp__(self):
+def __setUp__(self):
      '''
      set up method to run before each test cases.
     '''
-    self.new_user = User("Instagram", "Emma", "0000") # create user object
+     self.new_user = User("Instagram", "Emma", "0000") # create user object
 
-   def test__init__(self):
+def test__init__(self):
      '''
      test_init case to test if the object is initialized correctly
      '''
@@ -25,13 +25,13 @@ class TestUser(unittest.TestCase):
      self.assertEqual(self.new_user.username,"Emma")
      self.assertEqual(self.new_user.password,"0000")
 
-   def tearDown(self):
+def tearDown(self):
     '''
     tearDown method that does clean up after each test case has run.
     '''
     User.user_list = []
 
-   def test_save_multiple_user(self):
+def test_save_multiple_user(self):
     '''
     test_save_multiple_user to check if we can save multiple accounts objects to our account_list
     '''  
@@ -41,24 +41,24 @@ class TestUser(unittest.TestCase):
     test_user.save_account()
     self.assertEqual(len(User.user_list),1)
 
-  def test_save_user(self):
+def test_save_user(self):
     self.new_user.save_user()
     self.assertEqual(len(User.user_list),1)
 
-  def delete_user(self):
+def delete_user(self):
 
     '''
     delete_user method deletes a saved user from the user-list
     '''    
     self.new_user.delete_contact() # Deleting a user object
-      self.new_user.save_user()
-      test_user = User ("Instagram", "Emma", "0000")
-      test_user.save_user()
+    self.new_user.save_user()
+    test_user = User ("Instagram", "Emma", "0000")
+    test_user.save_user()
 
-      self.new_user.delete_user()
-      self.assertEqual(len(User.user_list),1)
+    self.new_user.delete_user()
+    self.assertEqual(len(User.user_list),1)
 
-  def test_find_user_by_account(self):
+def test_find_user_by_account(self):
     '''
     checks to see if we can find a user by account and display information
     '''
@@ -71,12 +71,12 @@ class TestUser(unittest.TestCase):
 
     self.assertEqual(found_user.account,username,password) 
 
-  def test_user_exists(self):
+def test_user_exists(self):
       '''
       test to check if we can return a Boolean if we cannot find user.
       '''
 
-     self.new_user_exists(self):
+    self.new_user_exists(self):
      test_user = Users("Instagram","Emma","0000")
      test_user.save_user()
 
