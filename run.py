@@ -1,3 +1,8 @@
+from user import Username
+from credentials import credentials
+import random
+
+
 def main():
     print("Hello welcome to your account.What is your name?")
     user_name = input()
@@ -12,11 +17,12 @@ def main():
 
           if short_code == 'ca':
               print("New account")
-              print()
+              print("-"*10)
 
               print("user_name.......")
+              user_name =input()
 
-              save_accounts(create_account(account ,user_name,password))
+              save_accounts(create_account(account_name ,user_name,password))
               print('\n')
               print(f"New Account {user_name} created")
               print ('\n')
@@ -31,7 +37,7 @@ def main():
                        print(f"{account.username}......{account.password}")
 
                        print('\n')
-    else:
+             else:
                   print('\n')
                   print("You dont seem to have any accounts")
                   print('\n')
@@ -39,14 +45,14 @@ def main():
     elif short_code == "fa":
              print("Enter the account you want to search for")
 
-             search_account = input()
+             search_account_name = input()
              if check_existing_accounts(search_account):
-                 search_account = find_account()
-                 print(f"{search_account.user_name} {search_account.password}")
-                 print('-' * 20)
+                 search_account_name = find_account_name()
+                 print(f"{search_accoun_namet.user_name} {search_account_name.password}")
+                 print('-' * 10)
 
-                 print(f"Username.........{search_account.user_name}")
-                 print(f"Password..........{search_account.password}")
+                 print(f"Username.........{search_account_name.user_name}")
+                 print(f"Password..........{search_account_name.password}")
              else:
                  print("That contact does not exist")
 

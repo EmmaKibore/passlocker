@@ -21,7 +21,7 @@ def test__init__(self):
      test_init case to test if the object is initialized correctly
      '''
 
-     self.assertEqual(self.new_user.account,"Instagram")
+     self.assertEqual(self.new_user.account_name,"Instagram")
      self.assertEqual(self.new_user.username,"Emma")
      self.assertEqual(self.new_user.password,"0000")
 
@@ -38,7 +38,7 @@ def test_save_multiple_user(self):
 
     self.new_user.save_user()
     test_usert = User("Instagram", "Emma", "0000") # new account 
-    test_user.save_account()
+    test_user.save_account_name()
     self.assertEqual(len(User.user_list),1)
 
 def test_save_user(self):
@@ -50,7 +50,7 @@ def delete_user(self):
     '''
     delete_user method deletes a saved user from the user-list
     '''    
-    self.new_user.delete_contact() # Deleting a user object
+    self.new_user.delete_account() # Deleting a user object
     self.new_user.save_user()
     test_user = User ("Instagram", "Emma", "0000")
     test_user.save_user()
@@ -69,7 +69,7 @@ def test_find_user_by_account(self):
 
     found_user = user.find_by_account ("Instagram")
 
-    self.assertEqual(found_user.account,username,password) 
+    self.assertEqual(found_user.account_name,username,password) 
 
 def test_user_exists(self):
       '''
