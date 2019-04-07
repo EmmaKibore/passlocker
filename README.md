@@ -6,6 +6,7 @@ This is a n application that allows us to generate and store passwords for vario
 
 ## Technologies used
 Python
+pip
 
 
 ## Installation
