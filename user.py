@@ -21,27 +21,29 @@ class User:
         '''
 
         User.user_list.append(self)
-    def delete_user(self):
-        User.user_list.remove(self)
+    
+               return user 
+                         
+# def delete_user(self):
+#         User.user_list.remove(self)
 
-        @classmethod
-        def find_by_account(cls, account):
-          for user in cls.user_list:
-              if user.account == account:
-                  return user
-        @classmethod
-        def user_exist(cls, account):
-          for user in cls.user_list:
-              return True
+#         @classmethod
+#         def find_by_account(cls, account):
+#           for user in cls.user_list:
+#               if user.account == account:
+#                   return user
+#         @classmethod
+#         def user_exist(cls, account):
+#           for user in cls.user_list:
+#               return True
 
-          else:
-              return False
+#           else:
+#               return False
 
-        @classmethod
-        def display_users(cls):
-           return cls.user_list
+#         @classmethod
+#         def display_users(cls):
+#            return cls.user_list
 
-        @classmethod
-        def display_user(cls):
-           for user in cls.user_list:
-               return user           
+#         @classmethod
+#         def display_user(cls):
+#            for user in cls.user_list:
