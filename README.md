@@ -4,7 +4,7 @@ By Emma Kibore
 ## Description
 This is a n application that allows us to generate and store passwords for various accounts.
 
-##Technologies used
+## Technologies used
 Python
 
 

@@ -76,7 +76,7 @@ def test_user_exists(self):
       test to check if we can return a Boolean if we cannot find user.
       '''
 
-    self.new_user_exists(self):
+    self.new_user_exists()
      test_user = Users("Instagram","Emma","0000")
      test_user.save_user()
 
