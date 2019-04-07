@@ -13,9 +13,9 @@ This is a n application that allows us to generate and store passwords for vario
 | :----------------------- | :-------------   | :---------------------------------|
 | Create a new account     | Type: ca         |  User Emma has been created.      |  
 |                          | Username:Emma    |                                   |
-|------------------------- |------------------|-----------------------------------|                    | |Display account           | Type: da         | Outputs stored accounts           |
+|------------------------- |------------------|-----------------------------------|                    | | Display account          | Type: da         | Outputs stored accounts           |
 |--------------------------|------------------|-----------------------------------|
-| Find a a credential      | Type : fc        | Outputs all saved Emma credentials|      
+| Find a account           | Type : fa        | Outputs all saved Emma accounts   |      
 |--------------------------|------------------|-----------------------------------|
 | Exit application         | Type: ex         | Closes the application            |
 |                          | Bye Emma         |                                   |
