@@ -15,7 +15,7 @@ Python
 >Run python3.6 run.py code in the terminal to launch.
 
 
-# BDD
+## BDD
 | Behaviour                | Input            | Output                            |
 | :----------------------- | :-------------   | :---------------------------------|
 | Create a new account     | Type: ca         |  User Emma has been created.      |  
@@ -26,7 +26,12 @@ Python
 |--------------------------|------------------|-----------------------------------|
 | Exit application         | Type: ex         | Closes the application            |
 |                          | Bye Emma         |                                   |
-|--------------------------|------------------|-----------------------------------|
 
 ## Known bugs
 There are currently no known bugs
+
+## Support and contact details
+Incase of any issues, call 0702499205 or email me at emmaKibore@gmail.com
+
+## Licence
+MIT  copyright (c) 2019 Emma Kibore
