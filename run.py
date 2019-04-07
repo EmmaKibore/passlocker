@@ -42,7 +42,7 @@ def main():
                     print("You dont seem to have any accounts")
                     print('\n')
 
-            elif short_code == "fa":
+                elif short_code == "fa":
                     print("Enter the account you want to search for")
 
                     search_account_name = input()
@@ -56,10 +56,10 @@ def main():
                     else:
                         print("That contact does not exist")
 
-            elif short_code == "ex":
+                    elif short_code == "ex":
                         print("Adios ...........")
                         break
-            else:
+                    else:
                         print("I did not get that at all. Please use the short codes")
 
                         if __name__ == '__main__':
