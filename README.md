@@ -8,8 +8,8 @@ This application allows a user to create an account. Login in and save their cre
 
 
 ## Technologies used
-Python
-pip
+* Python
+* pip
 
 
 ## Installation
