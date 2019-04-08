@@ -1,5 +1,5 @@
-from user import user_name
-from credentials import credentials
+from user import User
+from credentials import Credentials
 import random
 
 
@@ -42,7 +42,7 @@ def main():
                     print("You dont seem to have any accounts")
                     print('\n')
 
-                elif short_code == "fa":
+            elif short_code == "fa":
                     print("Enter the account you want to search for")
 
                     search_account_name = input()
@@ -56,11 +56,11 @@ def main():
                     else:
                         print("That contact does not exist")
 
-                    elif short_code == "ex":
+            elif short_code == "ex":
                         print("Adios ...........")
                         break
-                    else:
-                        print("I did not get that at all. Please use the short codes")
+            else:
+                print("I did not get that at all. Please use the short codes")
 
-                        if __name__ == '__main__':
-                            main()
+if __name__ == '__main__':
+    main()
